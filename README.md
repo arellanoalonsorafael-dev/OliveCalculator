@@ -29,3 +29,22 @@ You can run this project using any Java IDE (like IntelliJ IDEA, Eclipse, or Net
 1. Clone this repository:
    ```bash
    git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git)
+### Usage example:
+=== INITIAL CONFIGURATION ===
+Enter the price of olives per kg (e.g., 0.30): 0.30
+Enter the number of tanks to calculate: 1
+Enter the number of working days per tank: 2
+Enter the number of workers (crew size): 4
+
+--- Data for TANK 1 ---
+Enter the amount of olives in tank 1 (kg): 1000
+Day 1 - Enter the number of sacks collected: 10
+Day 2 - Enter the number of sacks collected: 15
+
+================ RESULTS ================
+
+--- RESULTS TANK 1 ---
+The wage for a worker on day 1 is: 30.00 €
+The wage for a worker on day 2 is: 45.00 €
+The earnings per sack for tank 1 is: 12.00 €
+The total earnings for tank 1 is: 300.00 €
